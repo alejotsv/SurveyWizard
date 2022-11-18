@@ -1,4 +1,7 @@
 package com.java21days;
 
-public class SurveyFrame {
+import javax.swing.*;
+
+public class SurveyFrame extends JFrame {
+
 }
