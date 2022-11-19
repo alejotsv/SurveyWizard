@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SurveyWizard extends JFrame implements ActionListener {
+public class SurveyWizard extends JPanel implements ActionListener {
     int currentCard = 0;
     CardLayout cards = new CardLayout();
     SurveyPanel[] ask = new SurveyPanel[3];
